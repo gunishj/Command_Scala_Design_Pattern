@@ -1,7 +1,9 @@
+package oo
+
 class LighOnCommand(l:Light) extends ICommand {
   override def execute(): Unit = {
     l.On()
-    print(" Light Status is Switched - ")
+    print(" oo.Light Status is Switched - ")
     println(l.status)
 
   }

@@ -1,4 +1,4 @@
-
+package oo
 
 object App extends App{
   var Philip_Kitchen_holder1_bulb = new Light

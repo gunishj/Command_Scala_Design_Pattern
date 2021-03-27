@@ -1,3 +1,5 @@
+package oo
+
 class Light {
 
   var status:String="Off"

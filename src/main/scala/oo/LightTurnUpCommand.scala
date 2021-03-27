@@ -1,9 +1,11 @@
+package oo
+
 class LightTurnUpCommand(l:Light) extends ICommand {
   override def execute(): Unit = {
 
     l.Up()
 
-    print(" Light intensity is :")
+    print(" oo.Light intensity is :")
     println(l.intensity)
   }
 
