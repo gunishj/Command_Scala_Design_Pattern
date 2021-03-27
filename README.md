@@ -14,4 +14,4 @@ Use the Command pattern when you want to
 * structure a system around high-level operations build on primitive operations. Such a structure is common in information systems that support transactions. A transaction encapsulates a set of changes to data. The Command pattern offers a way to model transactions. Commands have a common interface, letting you invoke all transactions the same way. The pattern also makes it easy to extend the system with new transactions
 
 ## Structure
-![Command](./docs/images/Command.png)
+![Command](./docs/images/command.png)
